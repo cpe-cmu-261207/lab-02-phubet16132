@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <title>MyPic</title>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="./pweb.html">PhuRuji</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pweb.html">Proflie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pictrue.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="./contact.html" tabindex="-1" aria-disabled="false">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
         <h1 style="text-align: center;">GALLERY</h1>
         <table>
             <tr>
@@ -47,19 +74,5 @@
                 <td style="text-align: center;">kim03</td>
             </tr>
         </table>
-
-
-
-
-
-
-        <p>
-            <div style="width: 340px;height: 100px; margin:0 auto;">
-                <a href="./pweb.html" style="margin-right: 30px;"><img src="./pro icon.svg" alt="profile" width="20%"></a> 
-                <a href="./pictrue.html" style="margin-right: 30px;"><img src="./pic icon.svg" alt="allPic" width="20%"></a>
-                <a href="./contact.html"><img src="./cont.svg" alt="contact" width="20%"></a> 
-            </div>
-            
-        </p>
     </body>
 </html>

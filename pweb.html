@@ -2,9 +2,35 @@
 <html>
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <title>PhuRuji</title>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="./pweb.html">PhuRuji</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pweb.html">Proflie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pictrue.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="./contact.html" tabindex="-1" aria-disabled="false">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
         <p><img src="./pic1.jpeg" alt="Mypic" height="20%" width="15%" style="float:left">  
             <h1>Phubet</h1>
             <h1>Rujirekanusorn</h1><br>
@@ -12,80 +38,51 @@
             <p>Email : phubet_ruji@cmu.ac.th <br>
                Tel : 088-616-1454</p>
             <p><b>SOCIAL MEDIA</b></p>
-            <p>FACEBOOK  : <a href="https://www.facebook.com/profile.php?id=100003232096595">ภู รุจิ</a><br>
+            <p>FACEBOOK  : <a href="https://www.facebook.com/profile.php?id=100003232096595">Phu Ruji</a><br>
                INSRAGRAM : <a href="https://www.instagram.com/phu_ruji/">phu_ruji</a>
             </p> 
         </p>
         
-        <h2 >PROFLIE</h2>
-        
-        <table>
-            <tr>
-                <td>
-                    <ul>
-                        <li><b>EDUCATION</b><br>
-                            - Montfort primary school <br>
-                            - Montfort scecondary school <br>
-                            - Chiang Mai university <br><br>
-                        </li>  
-                    </ul>
-                </td>
-            
-            
-                <td>
-                    <ul>
-                        <li><b>SKILL</b> <br>
-                            - Quick math <br>
-                            - Guitar skill <br><br><br>
-                        </li>  
-                    </ul>
-                </td>
-            
-            
-                <td>
-                    <ul>
-                        <li><b>Personal Information</b><br>
-                            - Brithdate : 29 May 2001 <br>
-                            - Age : 19 <br>
-                            - Sex : Male <br>
-                            - Nationality : Thai 
-                        </li>  
-                    </ul>
-                </td>
-            
-            
-                <td>
-                    <ul>
-                        <li><b>EDUCATION</b><br>
-                            - Montfort primary school <br>
-                            - Montfort scecondary school <br>
-                            - Chiang Mai university <br><br>
-                        </li>  
-                    </ul>
-                </td>
-            </tr>
-            
+        <h2 >PROFLIE</h2>   
         </table>
-
-        <p>
-            <div style="width: 340px;height: 100px; margin:0 auto;">
-                <a href="./pweb.html" style="margin-right: 30px;"><img src="./pro icon.svg" alt="profile" width="20%"></a> 
-                <a href="./pictrue.html" style="margin-right: 30px;"><img src="./pic icon.svg" alt="allPic" width="20%"></a>
-                <a href="./contact.html"><img src="./cont.svg" alt="contact" width="20%"></a> 
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <b>EDUCATION</b>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> - Montfort primary school <br>
+                    - Montfort scecondary school <br>
+                    - Chiang Mai university</div>
+              </div>
             </div>
-            
-        </p>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Default radio
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-            <label class="form-check-label" for="flexRadioDefault2">
-              Default checked radio
-            </label>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <b>SKILL</b>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"> 
+                    - Quick math <br>
+                    - Guitar skill</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <b>Personal Information</b>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">- Brithdate : 29 May 2001 <br>
+                    - Age : 19 <br>
+                    - Sex : Male <br>
+                    - Nationality : Thai </div>
+              </div>
+            </div>
           </div>
     </body>
 </html>
