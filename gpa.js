@@ -116,6 +116,7 @@ cal.addEventListener("click",function(){
     ans1_65.textContent ="Your GPA of 1/2565 " + g1_65.toFixed(2) 
     ans2_65.textContent ="Your GPA of 2/2565 " + g2_65.toFixed(2)
     ans65.textContent = "Your GPA of 2565 " + g65.toFixed(2)
+    List.append("_____________________________________")
     List.append(ansGpax)  
     List.append(GpaxMa)
     List.append("_____________________________________")
